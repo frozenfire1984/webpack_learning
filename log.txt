@@ -1,0 +1,73 @@
+
+> webpack@1.0.0 dev
+> cross-env NODE_ENV=development webpack --mode development
+
+------------------------------------
+------------------------------------
+is mode: development
+is hot mode: undefined
+------------------------------------
+------------------------------------
+assets by info 199 KiB [immutable]
+  asset fc2b5060f7accec5cf74.ttf 164 KiB [emitted] [immutable] [from: assets/fonts/Roboto-Regular.ttf] (auxiliary name: main)
+  asset 106d9ce17b481ed61205.png 22.4 KiB [emitted] [immutable] [from: assets/webpack.png] (auxiliary name: main)
+  asset b4afcd5491709dcfda72.png 12.5 KiB [emitted] [immutable] [from: assets/nodejs.png] (auxiliary name: main)
+assets by path *.js 706 KiB
+  asset main.js 420 KiB [emitted] (name: main) 1 related asset
+  asset analytics.js 286 KiB [emitted] (name: analytics) 1 related asset
+asset favicon.ico 31.3 KiB [emitted] [from: assets/favicon.ico] [copied]
+asset main.css 8.9 KiB [emitted] (name: main) 1 related asset
+asset index.html 1.17 KiB [emitted]
+Entrypoint main 428 KiB (707 KiB) = main.css 8.9 KiB main.js 420 KiB 5 auxiliary assets
+Entrypoint analytics 286 KiB (372 KiB) = analytics.js 1 auxiliary asset
+runtime modules 6.11 KiB 25 modules
+orphan modules 22.4 KiB (javascript) 177 KiB (asset) [orphan] 8 modules
+cacheable modules 402 KiB (javascript) 7.41 KiB (css/mini-extract) 22.4 KiB (asset)
+  javascript modules 402 KiB
+    modules by path ./ 112 KiB 12 modules
+    modules by path ../node_modules/ 290 KiB 9 modules
+  css modules 7.41 KiB
+    modules by path ./styles/*.css 648 bytes 2 modules
+    css ../node_modules/css-loader/dist/cjs.js!../node_modules/normalize.css/normalize.css 5.99 KiB [built] [code generated]
+    css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./styles/test_scss.scss 472 bytes [built] [code generated]
+    css ../node_modules/css-loader/dist/cjs.js!../node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./styles/test_less.less 329 bytes [built] [code generated]
+  ./assets/json.json 102 bytes [built] [code generated]
+  ./assets/webpack.png 42 bytes (javascript) 22.4 KiB (asset) [built] [code generated]
+webpack 5.73.0 compiled successfully in 3568 ms
+
+> webpack@1.0.0 dev
+> cross-env NODE_ENV=development webpack --mode development
+
+------------------------------------
+------------------------------------
+is mode: development
+is hot mode: undefined
+------------------------------------
+------------------------------------
+assets by path *.js 432 KiB
+  asset vendors-node_modules_jquery_dist_jquery_js.js 282 KiB [emitted] (id hint: vendors) 1 related asset
+  asset main.js 141 KiB [emitted] (name: main) 1 related asset
+  asset analytics.js 8.17 KiB [emitted] (name: analytics) 1 related asset
+assets by info 199 KiB [immutable]
+  asset fc2b5060f7accec5cf74.ttf 164 KiB [emitted] [immutable] [from: assets/fonts/Roboto-Regular.ttf] (auxiliary name: main)
+  asset 106d9ce17b481ed61205.png 22.4 KiB [emitted] [immutable] [from: assets/webpack.png] (auxiliary name: main)
+  asset b4afcd5491709dcfda72.png 12.5 KiB [emitted] [immutable] [from: assets/nodejs.png] (auxiliary name: main)
+asset favicon.ico 31.3 KiB [emitted] [from: assets/favicon.ico] [copied]
+asset main.css 8.9 KiB [emitted] (name: main) 1 related asset
+asset index.html 1.28 KiB [emitted]
+Entrypoint main 433 KiB (711 KiB) = vendors-node_modules_jquery_dist_jquery_js.js 282 KiB main.css 8.9 KiB main.js 141 KiB 6 auxiliary assets
+Entrypoint analytics 291 KiB (376 KiB) = vendors-node_modules_jquery_dist_jquery_js.js 282 KiB analytics.js 8.17 KiB 2 auxiliary assets
+runtime modules 11.1 KiB 29 modules
+orphan modules 22.4 KiB (javascript) 177 KiB (asset) [orphan] 8 modules
+cacheable modules 402 KiB (javascript) 7.41 KiB (css/mini-extract) 22.4 KiB (asset)
+  javascript modules 402 KiB
+    modules by path ./ 112 KiB 12 modules
+    modules by path ../node_modules/ 290 KiB 9 modules
+  css modules 7.41 KiB
+    modules by path ./styles/*.css 648 bytes 2 modules
+    css ../node_modules/css-loader/dist/cjs.js!../node_modules/normalize.css/normalize.css 5.99 KiB [built] [code generated]
+    css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./styles/test_scss.scss 472 bytes [built] [code generated]
+    css ../node_modules/css-loader/dist/cjs.js!../node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./styles/test_less.less 329 bytes [built] [code generated]
+  ./assets/json.json 102 bytes [built] [code generated]
+  ./assets/webpack.png 42 bytes (javascript) 22.4 KiB (asset) [built] [code generated]
+webpack 5.73.0 compiled successfully in 2772 ms

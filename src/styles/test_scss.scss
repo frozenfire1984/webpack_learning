@@ -1,0 +1,33 @@
+@import "mix";
+@import "add";
+
+@mixin style {
+  --label: "----@mixin style----";
+  border: 5px dotted #000;
+  background: rgba(0, 255, 0, 1);
+}
+
+.box_scss {
+  outline: 1px red solid;
+  padding: 10px;
+
+  .box-inn {
+    & {
+      @include style;
+    }
+
+    & {
+      margin: 2rem 0;
+      padding: 1rem;
+      border-radius: 10px;
+      background: rgba(255, 0, 0, .1);
+    }
+
+    h1 {
+      text-align: center;
+      & {
+        @include style;
+      }
+    }
+  }
+}

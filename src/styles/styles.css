@@ -1,0 +1,29 @@
+@import "~normalize.css";
+@import "roboto.css";
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: left;
+}
+
+.logo {
+    background-image: url(../assets/nodejs.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.json {
+    background-color: red;
+}

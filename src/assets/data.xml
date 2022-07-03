@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<email>
+    <to>Frozen Fire</to>
+    <from>Webpack</from>
+    <heading>Foo Bar</heading>
+    <body>Lorem ipsum sit amen</body>
+</email>
